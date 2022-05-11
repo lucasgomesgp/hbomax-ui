@@ -13,6 +13,9 @@ module.exports = {
         bounce_1s: "bounce 2s infinite 1s",
         bounce_2s: "bounce 3s infinite 3s",
       },
+      backgroundImage:{
+        "friends": "url(/assets/friends.png"
+      }
     },
   },
   plugins: [],
