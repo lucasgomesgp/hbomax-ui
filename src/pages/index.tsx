@@ -8,7 +8,7 @@ import { Loading } from '../components/Loading'
 const Home: NextPage = () => {
   useEffect(() => {
     setTimeout(() => {
-      Router.push("/home");
+      Router.push("/profile");
     }, 5000);
   }, []);
   return (
