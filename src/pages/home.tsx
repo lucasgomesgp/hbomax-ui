@@ -73,8 +73,8 @@ export default function Home() {
                         <Image src="/assets/raised.png" alt="Raised by Wolves" width={548} height={307} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex flex-col">
-                    <div className="flex gap-1 items-center">
+                <section className="flex flex-col mt-[4.5rem]">
+                    <div className="flex gap-1 items-center mb-[1.375rem]">
                         <h3 className="text-white text-xl font-bold">
                             Movies We Love
                         </h3>
@@ -90,7 +90,7 @@ export default function Home() {
                         <Image src="/assets/guns.png" alt="Guns" width={200} height={300} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex">
+                <section className="flex mt-[3.06rem]">
                     <div className="flex flex-col gap-3">
                         <h3 className="text-white font-bold">
                             Essential Series
@@ -110,8 +110,8 @@ export default function Home() {
                         <Image src="/assets/love_life.png" alt="Love Life" width={200} height={300} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex relative flex-col">
-                    <div className="flex gap-1 items-center">
+                <section className="flex relative flex-col mt-12">
+                    <div className="flex gap-1 items-center mb-[1.375rem]">
                         <h3 className="text-white text-xl font-bold">
                             Star Power
                         </h3>
@@ -125,8 +125,8 @@ export default function Home() {
                         <Image src="/assets/tom_hanks.png" alt="Tom Hanks" width={281} height={422} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex flex-col">
-                    <div className="flex gap-1 items-center">
+                <section className="flex flex-col mt-20">
+                    <div className="flex gap-1 items-center mb-[1.375rem]">
                         <h3 className="text-white text-xl font-bold">
                             Harry Potter and Other Fantastic Universes
                         </h3>
@@ -142,23 +142,23 @@ export default function Home() {
                         <Image src="/assets/mockingjay_4.png" alt="The Hunger Games Mockingjay Part II" width={200} height={300} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex items-center justify-center">
+                <section className="flex flex-wrap items-center justify-center mt-[8.75rem]">
                     <div className="flex flex-col">
-                        <div className="flex gap-3">
+                        <div className="flex gap-3 mb-1">
                             <Image src="/assets/max_originals.png" alt="Max Originals" layout="fixed" width={60} height={26} />
-                            <p className="text-white">
+                            <p className="text-white text-base text=[rgba(255, 255, 255, 0.7)] font-bold">
                                 GOSSIP GIRL: THE BAD WITCH
                             </p>
                         </div>
                         <div className="flex flex-col items-start justify-center">
-                            <h2>
+                            <h2 className="mb-3 text-white text-[2rem] font-bold">
                                 Hello again, Upper East Siders.
                             </h2>
-                            <p>
+                            <p className="mb-3 text-white">
                                 Your one and only source into the scandalous lives of Manhattan's
                                 elite is back, with a new cast.
                             </p>
-                            <button>
+                            <button className="text-white">
                                 WATCH NOW
                             </button>
                         </div>

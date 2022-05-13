@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
+    fontFamily:{
+      'sans': ["Sintony", "sans-serif"],
+    },
     screens: {
       min_screen: { max: "320px" },
       small_screen: { max: "980px" },
