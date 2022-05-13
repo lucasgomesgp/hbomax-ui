@@ -20,7 +20,7 @@ export default function Profile() {
             <Head>
                 <title>Escolhe sua conta</title>
             </Head>
-            <main className="w-screen h-screen bg-gradient-to-b from-profile_first to-profile_secondary flex flex-col items-center justify-between">
+            <main className="w-screen h-screen bg-gradient_profile flex flex-col items-center justify-between">
                 <div className="flex flex-col gap-10 mt-10 items-center justify-center">
                     <Image src="/assets/logo.png" alt="Logo HBO Max" objectFit="cover" width={128.54} height={22} />
                     <p className="text-white text-5xl font-normal ">Who Is Watching?</p>

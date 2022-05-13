@@ -1,8 +1,8 @@
 module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
-    fontFamily:{
-      'sans': ["Sintony", "sans-serif"],
+    fontFamily: {
+      sans: ["Sintony", "sans-serif"],
     },
     screens: {
       min_screen: { max: "320px" },
@@ -22,7 +22,9 @@ module.exports = {
         bounce_2s: "bounce 3s infinite 3s",
       },
       backgroundImage: {
-        friends: "url(/assets/friends.png",
+        friends: "url(/assets/friends.png)",
+        gradient_hbo: "linear-gradient(90deg, #9A35EF 0.97%, #4B00C4 46.41%, #4176D6 101.25%)",
+        gradient_profile: "url(/assets/bg_profile.svg)",
       },
     },
   },

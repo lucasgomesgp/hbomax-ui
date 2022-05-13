@@ -17,7 +17,7 @@ export default function Home() {
             <Head>
                 <title>Home</title>
             </Head>
-            <main className="w-full h-full bg-gradient-to-r from-profile_first to-profile_secondary overflow-hidden">
+            <main className="w-full h-full bg-gradient_home overflow-hidden">
                 <section className="absolute w-full h-full overflow-hidden">
                     <Image src="/assets/friends.png" alt="Menu" width={1480} height={810} layout="responsive" />
                     <BiPlay size={40} />
