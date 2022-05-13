@@ -60,7 +60,7 @@ export default function Home() {
                         </button>
                     </div>
                 </section>
-                <section className="flex relative flex-col mt-36 left-[19rem] gap-6">
+                <section className="flex relative flex-col mt-[221px] left-32 gap-6">
                     <div className="flex gap-1 items-center">
                         <h3 className="text-white text-xl font-bold">
                             New and Trending
@@ -73,7 +73,7 @@ export default function Home() {
                         <Image src="/assets/raised.png" alt="Raised by Wolves" width={548} height={307} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex flex-col mt-[4.5rem]">
+                <section className="flex flex-col mt-[4.5rem] pl-[3.4rem]">
                     <div className="flex gap-1 items-center mb-[1.375rem]">
                         <h3 className="text-white text-xl font-bold">
                             Movies We Love
@@ -90,34 +90,34 @@ export default function Home() {
                         <Image src="/assets/guns.png" alt="Guns" width={200} height={300} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex mt-[3.06rem]">
-                    <div className="flex flex-col gap-3">
-                        <h3 className="text-white font-bold">
+                <section className="flex mt-[3.06rem] pl-[3.4rem]">
+                    <div className="flex items-start justify-center flex-col gap-3">
+                        <h3 className="text-white font-bold text-[2rem]">
                             Essential Series
                         </h3>
-                        <p className="text-white">
+                        <p className="text-white text-base">
                             Your favorite shows, beloved characters, and
                             unforgettable stories.
                         </p>
-                        <button>
+                        <button className="font-bold text-white">
                             BROWSE ALL
                         </button>
                     </div>
-                    <div className="flex gap-3">
+                    <div className="flex gap-3 relative left-[4rem]">
                         <Image src="/assets/got.png" alt="Game of Thrones" width={200} height={300} objectFit="cover" />
                         <Image src="/assets/big_bang.png" alt="The Big Bang Theory" width={200} height={300} objectFit="cover" />
                         <Image src="/assets/sex_and_city.png" alt="Sex and The City" width={200} height={300} objectFit="cover" />
                         <Image src="/assets/love_life.png" alt="Love Life" width={200} height={300} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex relative flex-col mt-12">
+                <section className="flex relative flex-col mt-12 pl-[3.4rem]">
                     <div className="flex gap-1 items-center mb-[1.375rem]">
                         <h3 className="text-white text-xl font-bold">
                             Star Power
                         </h3>
                         <IoIosArrowForward size={20} color="white" />
                     </div>
-                    <div className="flex gap-3">
+                    <div className="flex gap-[1.375rem]">
                         <Image src="/assets/will.png" alt="Will Smith" width={281} height={422} objectFit="cover" />
                         <Image src="/assets/jennifer.png" alt="Jennifer Aniston" width={281} height={422} objectFit="cover" />
                         <Image src="/assets/margot.png" alt="Margot Robbie" width={281} height={422} objectFit="cover" />
@@ -125,7 +125,7 @@ export default function Home() {
                         <Image src="/assets/tom_hanks.png" alt="Tom Hanks" width={281} height={422} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex flex-col mt-20">
+                <section className="flex flex-col mt-20 pl-[3.4rem]">
                     <div className="flex gap-1 items-center mb-[1.375rem]">
                         <h3 className="text-white text-xl font-bold">
                             Harry Potter and Other Fantastic Universes
