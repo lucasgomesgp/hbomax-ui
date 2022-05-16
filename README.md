@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# :rocket: NLW Return :rocket:
 
-## Getting Started
+<div align="center">
+    <img src="./README/front_cover.png" >
+</div>
 
-First, run the development server:
+---
+## :art: Layout
+[Figma](https://www.figma.com/community/file/1102912516166573468)
 
-```bash
-npm run dev
-# or
-yarn dev
+---
+## :gear: Techs
+- [ReactJS](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [NodeJS](https://nodejs.org)
+- [Jest](https://jestjs.io/)
+- [Prisma](https://www.prisma.io/)
+- [Insomnia](https://insomnia.rest/)
+
+---
+## :rocket: Lições do evento
+- Desenvolvimento com acessibilidade
+    - Navegação por teclado
+- Qualidade de código
+    - Evitando práticas ruins de desenvolvimento
+- Uso do Typescript
+    - Intefaces, Types para facilitar a busca de propriedades navegadas na aplicação
+
+---
+## :iphone: Ambientes :computer: 
+<h3 align="center">Web</h3>
+
+![Web](./README/web.png)
+
+<h3 align="center">Mobile</h3>
+
+![Mobile](./README/mobile.png)
+---
+## :desktop_computer: Como usar
+- No Backend e no FrontEnd, basta abrir suas respectivas pastas (server ou feedget) e rodar o comando no terminal:
+```
+    yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Abrir uma aba no navegador e digitar localhost:3000 no caso do FronteEnd e no Backend basta buscar na rota http://localhost:3333/feedbacks
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- No Mobile, basta rodar no terminal:
+```
+    expo start
+```
+ou 
+```
+    yarn start
+```
+- Logo depois basta escanear o QR code caso utilize o Expo Go [Expo Go](https://expo.dev/client) com o proprio smartphone, ou utilizar o [Android Studio](https://developer.android.com/studio) e teclar A no terminal, para abrir no Android, quando o Emulador estiver aberto. 
+---
+## :books: License
+Arquivos sob a licença [MIT](https://github.com/lucasgomesgp) criado por Lucas Gomes.
