@@ -23,7 +23,7 @@ export default function Home() {
             <Head>
                 <title>Home</title>
             </Head>
-            <main className="w-full h-full overflow-hidden  bg-gradient_profile bg-no-repeat bg-cover bg-origin-border">
+            <main className="w-full h-full overflow-hidden  bg-gradient_profile bg-no-repeat bg-left-top bg-cover">
                 <header className="absolute flex items-center justify-between px-7 pt-2 pb-1 w-full  hover:bg-black z-20">
                     <div className="flex  gap-10  ">
                         <button>
@@ -40,12 +40,12 @@ export default function Home() {
                         {typeUser === "man" ? (
                             <>
                                 <Image className="hover:p-2" src="/assets/avatar1.png" height={40} width={40} alt="Perfil masculino" objectFit="cover" />
-                                <span className="text-white font-black">Felipe</span>
+                                <span className="text-white font-black">Jon</span>
                             </>
                         ) : (
                             <>
                                 <Image className="hover:p-2" src="/assets/avatar2.png" height={40} width={40} alt="Perfil feminino" objectFit="cover" />
-                                <span className="text-white font-black">Mylenna</span>
+                                <span className="text-white font-black">Sansa</span>
 
                             </>
                         )}
@@ -149,15 +149,18 @@ export default function Home() {
                         <Image className="hover:p-2" src="/assets/mockingjay_4.png" alt="The Hunger Games Mockingjay Part II" width={200} height={300} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex flex-wrap items-center justify-center mt-[8.75rem]">
+                <section className="relative flex flex-wrap items-center justify-center mt-[8.75rem] w-full">
+                    <div className="absolute z-10">
+                        <Image src="/assets/overlay_footer.png" alt="Overlay Gossip Girl" width={1970} height={584} objectFit="cover" />
+                    </div>
                     <div className="flex flex-col">
-                        <div className="flex gap-3 mb-1">
+                        <div className=" relative z-20 flex gap-3 mb-1">
                             <Image className="hover:p-2" src="/assets/max_originals.png" alt="Max Originals" layout="fixed" width={60} height={26} />
                             <p className="text-white text-base text=[rgba(255, 255, 255, 0.7)] font-bold">
                                 GOSSIP GIRL: THE BAD WITCH
                             </p>
                         </div>
-                        <div className="flex flex-col items-start justify-center">
+                        <div className=" relative z-20 flex flex-col items-start justify-center">
                             <h2 className="mb-3 text-white text-[2rem] font-bold">
                                 Hello again, Upper East Siders.
                             </h2>
@@ -170,7 +173,9 @@ export default function Home() {
                             </button>
                         </div>
                     </div>
-                    <Image className="hover:p-2" src="/assets/footer.png" alt="Game of Thrones" width={360} height={360} objectFit="cover" />
+                    <div className="relative z-20">
+                        <Image className="hover:p-2" src="/assets/footer.png" alt="Game of Thrones" width={360} height={360} objectFit="cover" />
+                    </div>
                 </section>
             </main>
         </>);

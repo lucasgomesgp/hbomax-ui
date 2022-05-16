@@ -26,7 +26,7 @@ module.exports = {
         friends: "url(/assets/friends.png)",
         gradient_hbo:
         "linear-gradient(90deg, #9A35EF 0.97%, #4B00C4 46.41%, #4176D6 101.25%)",
-        gradient_profile: "url(/assets/bg_profile.svg)",
+        gradient_profile: "url(/assets/bg_profile.png)",
         btn: "linear-gradient(90.36deg, #4710C1 3.28%, #7857FF 50.58%, #819BFD 96.22%)",
       },
     },
