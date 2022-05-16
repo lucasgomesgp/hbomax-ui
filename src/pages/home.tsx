@@ -52,7 +52,7 @@ export default function Home() {
                         )}
                     </button>
                 </header>
-                <section className="h-screen max-w-[80%] relative top-[17rem] md_screen:top-[7rem] left-[2.8rem] z-20">
+                <section className="h-screen max-w-[80%] relative top-[17rem] md_screen:top-[1rem] md_screen:h-[10%] left-[2.8rem] z-20">
                     <Image className="hover:p-2" src="/assets/logo_friends.png" alt="Menu" width={328} height={99} objectFit="cover" />
                     <p className="text-white mt-8">NOW PLAYING</p>
                     <p className="text-white mt-1">They are back in Central Perk. For one night only.</p>
@@ -68,7 +68,7 @@ export default function Home() {
                 <section className="absolute top-0 w-full h-full z-10">
                     <Image className="hover:p-2" src="/assets/friends.png" alt="Friends" width={1480} height={810} layout="responsive" />
                 </section>
-                <section className="flex relative flex-col mt-[221px] left-32 gap-6">
+                <section className="flex relative flex-col mt-[210px]  small_screen:mt-[150px] md_screen:mt-[310px]  left-32 gap-6">
                     <div className="flex gap-1 items-center">
                         <h3 className="text-white text-xl font-bold">
                             New and Trending
@@ -98,8 +98,8 @@ export default function Home() {
                         <Image className="hover:p-2" src="/assets/guns.png" alt="Guns" width={200} height={300} objectFit="cover" />
                     </div>
                 </section>
-                <section className="flex mt-[3.06rem] relative left-[3.4rem]">
-                    <div className="flex items-start justify-center flex-col gap-3">
+                <section className="flex flex-wrap items-center mt-[3.06rem] relative left-[3.4rem]">
+                    <div className="flex  items-start justify-center flex-col gap-3">
                         <h3 className="text-white font-bold text-[2rem]">
                             Essential Series
                         </h3>

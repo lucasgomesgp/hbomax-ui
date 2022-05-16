@@ -5,9 +5,11 @@ module.exports = {
       // sans: ["Roboto", "sans-serif"],
     },
     screens: {
-      min_screen: { max: "320px" },
+      min_screen: { min: "425px" },
       small_screen: { max: "980px" },
-      md_screen: { max: "1200px" },
+      md_screen: { max: "1024px" },
+      md_min_screen: { min: "1024px" },
+      lg: "1440px",
     },
     extend: {
       colors: {
@@ -25,7 +27,7 @@ module.exports = {
       backgroundImage: {
         friends: "url(/assets/friends.png)",
         gradient_hbo:
-        "linear-gradient(90deg, #9A35EF 0.97%, #4B00C4 46.41%, #4176D6 101.25%)",
+          "linear-gradient(90deg, #9A35EF 0.97%, #4B00C4 46.41%, #4176D6 101.25%)",
         gradient_profile: "url(/assets/bg_profile.png)",
         btn: "linear-gradient(90.36deg, #4710C1 3.28%, #7857FF 50.58%, #819BFD 96.22%)",
       },
