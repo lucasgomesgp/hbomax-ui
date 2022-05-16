@@ -6,8 +6,8 @@
 
 ---
 ## :art: Layout
-[Figma](https://www.figma.com/community/file/994715668716699770)
-[Perfil do criador](https://www.figma.com/@felipemotabr)
+- [Figma](https://www.figma.com/community/file/994715668716699770)
+- [Perfil do criador](https://www.figma.com/@felipemotabr)
 
 ---
 ## :gear: Techs
